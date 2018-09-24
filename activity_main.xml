@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:id="@+id/titlename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GAUTAM ENGINERING WORKS"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold|italic"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titlename"
+        android:text="SHASTRI NAGAR"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:id="@+id/add"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/deal"
+        android:layout_below="@+id/add"
+        android:text="Deals In All Fuse Box"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tata"
+        android:layout_below="@+id/add"
+       android:layout_margin="40dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+
+        <Button
+            android:background="@android:color/transparent"
+android:id="@+id/home"
+            android:text="HOME"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"/>
+        <Button
+android:id="@+id/products"
+            android:background="@android:color/transparent"
+            android:textStyle="bold"
+            android:text="Products"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/contact"
+            android:background="@android:color/transparent"
+            android:textStyle="bold"
+
+            android:text="contact"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <Button
+android:id="@+id/about"
+            android:textStyle="bold"
+            android:background="@android:color/transparent"
+            android:text="about"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</RelativeLayout>

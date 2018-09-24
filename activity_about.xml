@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity"
+    android:background="@android:color/darker_gray">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/buttonlayout">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@android:color/white"
+            >
+
+        <TextView
+
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Established in the year 1983 at Delhi, we, Gautam Engineering Works, are a highly acclaimed Manufacturer and Wholesaler of premium quality Fuse Box Base, Big Fuse, Wiring Harness, Fuse Box, Fuse Box With Wire, Bakelite Head Light Holder, Head Light Holder, Couplers And Relay and Connectors and Bulb Holder. These are manufactured strictly as per industrial quality standards by using raw materials of the best quality at our modern production facility. These are easily available to clients in an array of specifications such as shape, size, weight and design as per the requirement of the clients. The products offered by us are acclaimed for their ultra stylish designs, longer working lifespan and durability. The quality of our products is stringently inspected before dispatch by a team of experienced quality analysts in order to guarantee unmatched product quality to clients at all times. Our hardworking professionals strive to fulfil the requirements of our clients in a highly efficient manner on a consistent basis. These products are widely used in various electrical and electronic applications.                                                                                   "
+            android:textSize="20dp"
+            android:textColor="@android:color/black"/>
+
+
+
+
+        </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/buttonlayout"
+        >
+
+        <Button
+            android:background="@android:color/transparent"
+            android:id="@+id/home"
+            android:text="HOME"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/products"
+            android:background="@android:color/transparent"
+            android:textStyle="bold"
+            android:text="Products"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/contact"
+            android:background="@android:color/transparent"
+            android:textStyle="bold"
+
+            android:text="contact"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/about"
+            android:textStyle="bold"
+            android:background="@android:color/transparent"
+            android:text="about"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>
